@@ -31,7 +31,7 @@ Start development server
 npm run dev
 ```
 
-The application will be served on port 5173, so you can access it on http://localhost:5173
+The application will be served on port 5173, so you can access it at http://localhost:5173
 
 ## Setup using Docker
 
@@ -41,7 +41,7 @@ To run the application using Docker, ensure you have Docker installed on your ma
 docker compose up -d
 ```
 
-This will start the container for the app in detached mode
+This will start the container for the app in detached mode and you'll be able to access the app at http://localhost:5173.
 
 To stop the container, you can run the following command:
 
